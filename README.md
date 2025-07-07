@@ -1,6 +1,8 @@
 ## Hi there 👋
 <!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=eyobonline)](https://github.com/eyobonline/github-readme-stats) -->
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=eyobonline&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=eyobonline&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eyobonline&layout=compact&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com?user=eyobonline&theme=tokyonight)
 
 <!--
 **eyobonline/eyobonline** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
