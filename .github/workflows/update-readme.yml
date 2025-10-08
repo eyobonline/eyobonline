@@ -1,0 +1,25 @@
+# This is a workflow to update profile README to refresh cached stats
+
+name: Refresh README Stats Cache
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every 12 hours
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update cache buster in README
+        run: |
+          DATE=$(date +%Y%m%d%H%M)
+          sed -i "s/cache_bust=[0-9]*/cache_bust=${DATE}/g" README.md
+
+      - name: Commit and push if changes exist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "Auto-update GitHub stats cache param" && git push)
