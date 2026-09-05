@@ -2,10 +2,10 @@
 <table>
   <tr>
     <td>
-      <img src="https://streak-stats.demolab.com?user=eyobonline&theme=github-dark&cache_bust=202609040246" alt="GitHub Streak"/>
+      <img src="https://streak-stats.demolab.com?user=eyobonline&theme=github-dark&cache_bust=202609050247" alt="GitHub Streak"/>
     </td>
     <td>
-      <img src="https://github-readme-stats-five-kappa-43.vercel.app/api/top-langs/?username=eyobonline&layout=compact&hide=blade,cmake&langs_count=8&theme=transparent&cache_bust=202609040246" alt="Top Langs"/>
+      <img src="https://github-readme-stats-five-kappa-43.vercel.app/api/top-langs/?username=eyobonline&layout=compact&hide=blade,cmake&langs_count=8&theme=transparent&cache_bust=202609050247" alt="Top Langs"/>
     </td>
   </tr>
 </table>
